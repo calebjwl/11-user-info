@@ -1,0 +1,49 @@
+.section {
+
+}
+
+.container {
+
+}
+
+.hero {
+  background: $c-hero;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+}
+
+.avatar_img {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  margin: 2rem 2rem 4rem 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  > * + * {
+  border-top: $s-border;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    margin: 0.9rem;
+  }
+
+  &__text {
+
+  }
+}
